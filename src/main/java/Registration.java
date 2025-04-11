@@ -1,7 +1,11 @@
 package src.main.java;
 
+import java.util.ArrayList;
+
 public class Registration extends Thread {
     private  int spots = 6;
+    ArrayList<String> spaces = new ArrayList<>();
+
     private Object lock = new Object();
     private String name;
 
@@ -11,6 +15,7 @@ public class Registration extends Thread {
          synchronized(lock){
              if(spots > 0){
                  System.out.println(studentName + "is registering"+ "There are " + spots + "left");
+
                  spots--;
                  System.out.println(studentName + "Registered");
 

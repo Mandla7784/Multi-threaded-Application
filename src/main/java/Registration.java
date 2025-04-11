@@ -15,7 +15,7 @@ public class Registration extends Thread {
          synchronized(lock){
              if(spots > 0){
                  System.out.println(studentName + "is registering"+ "There are " + spots + "left");
-
+                   spaces.add(studentName);
                  spots--;
                  System.out.println(studentName + "Registered");
 

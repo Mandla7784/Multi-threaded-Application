@@ -1,6 +1,8 @@
 package src.main.java;
 
-class MultiThreadApplication{
+
+
+class MultiThreadApplication extends Thread{
     public static void main(String [] rgs){
        
     }

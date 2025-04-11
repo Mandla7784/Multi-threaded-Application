@@ -1,0 +1,4 @@
+Date :11 April 2025
+Key take aways : always extend the Tread Class.I must always override the run method, use start() method to handle mutliple concurrent threads.
+
+Struggles : I found it difficult to understand the multi thread programming since it was my first time doing threads
